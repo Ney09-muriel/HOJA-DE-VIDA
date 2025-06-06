@@ -77,6 +77,8 @@ Opera 12+, Safari 7+ */
 
 .contact-info {
     text-align: right;
+    position: relative;
+    top: 20px;
 }
 
 .download-btn {
@@ -89,6 +91,8 @@ Opera 12+, Safari 7+ */
     border-radius: 5px;
     font-weight: bold;
     box-shadow: 0 0 20px #ffffff;
+    position: relative;
+    top: 3rem;
 }
 
 main {
@@ -172,3 +176,28 @@ footer {
     flex-direction: column;
     align-items: start;
 }
+#barra1 {
+  width: 100%;
+  height: 8px;
+  appearance: none;} /* Para que no se vea el estilo predeterminado del navegador */
+
+#barra1::-webkit-progress-bar {
+  background-color: #ffc3c3;
+}
+
+#barra1::-webkit-progress-value {
+  background-color: #ad0000; /* Color de la barra de progreso */
+}
+#barra2 {
+  width: 100%;
+  height: 8px;
+  appearance: none; /* Para que no se vea el estilo predeterminado del navegador */
+  background-color: #ffc7c7; /* Color de fondo de la barra */
+}
+
+#barra2::-webkit-progress-bar {
+  background-color: #ffc3c3;
+}
+
+#barra2::-webkit-progress-value {
+  background-color: #ad0000; /* Color de la barra de progreso */}
